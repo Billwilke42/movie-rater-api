@@ -1,10 +1,12 @@
+require('dotenv').config()
+
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: 'billwilke',
-  host: 'localhost',
-  database: 'movieapi',
+  user: `${process.env.DB_USER}`,
+  host: `${process.env.DB_HOST}`,
+  database: `${process.env.DB_DATABASE}`,
   password: `${process.env.POSTGRES_PASSWORD}`,
-  port: 5432,
+  port: `${process.env.DB_PORT}`,
 })
 
 const createRating = (imdb_id, thumbs_up, thumbs_down, title, response ) => {
