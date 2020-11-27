@@ -62,28 +62,28 @@ DB_DATABASE=movieapi
 DB_USER=(Your postgres username)
 ```
 
-7. Run in your terminal:
+8. Run in your terminal:
 
 ```bash
 $ node index.js
 ```
 
-8. Open a new terminal window. 
+9. Open a new terminal window. 
 
-9. Clone down the FE repository https://github.com/Billwilke42/movierater and cd into project folder.
+10. Clone down the FE repository https://github.com/Billwilke42/movierater and cd into project folder.
 
-10. In your browser, go to https://rapidapi.com/rapidapi/api/Movie%20Database%20(IMDB%20Alternative), subscribe and add your given API key to a .env file in the Front End project folder.
+11. If the given API key does not work. In your browser, go to https://rapidapi.com/rapidapi/api/Movie%20Database%20(IMDB%20Alternative), subscribe and add your given API key to a .env file in the Front End project folder.
 
-10. In your terminal run: 
+12. In your terminal run: 
 
 ```bash
 $ npm install
 $ npm start
 ```
 
-11. You should now be able to view the application in your browser at http://localhost:3000/
+13. You should now be able to view the application in your browser at http://localhost:3000/
 
-12. Go ahead and search for some movies and add your ratings, if you run in your Postgres CLI:
+14. Go ahead and search for some movies and add your ratings, if you run in your Postgres CLI:
 
 ```bash
  $ SELECT * FROM ratings;
@@ -116,6 +116,6 @@ You should be able to view your ratings!
 
 ## Challenges and Reflection
 
-I was a bit nervous but also excited going into this challenge, as an alumni of the Front End program at the Turing School of Software & Design, I had never actually built an API from scratch before. I love immersing myself in new tech and learning more about the Back End has been a priority for me. I have tons of experience with JavaScript and have built microservices with Express.js and used Postgres a bit, so I settled in on this as my Back End stack. One thing I wish I had gotten to on the Back End was Migrations so I could seed the database when the challenge was viewed by YearOne staff. Unfortunately, even with the extension YearOne graciously gave me, I have no more time to work on this project due to previous commitments. I had no problems on the Front End other than I wanted to get more testing done, specifically integration and more sad path unit tests. Thank you YearOne for the opportunity to work on this challenge, I am very happy with what I made.
+I was a bit nervous but also excited going into this challenge, as an alumni of the Front End program at the Turing School of Software & Design, I had never actually built an API from scratch before. I love immersing myself in new tech and learning more about the Back End has been a priority for me. I have tons of experience with JavaScript and have built microservices with Express.js and used Postgres a bit, so I settled in on this as my Back End stack. One thing I wish I had gotten to on the Back End was Migrations so I could seed the database when the challenge was viewed by YearOne staff. I also wish I got to deployment. Unfortunately, even with the extension YearOne graciously gave me, I have no more time to work on this project due to previous commitments. I had no problems on the Front End other than I wanted to get more testing done, specifically integration and more sad path unit tests. Thank you YearOne for the opportunity to work on this challenge, I am very happy with what I made.
 
 
